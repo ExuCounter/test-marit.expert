@@ -1,0 +1,61 @@
+$basic: rgb(226, 226, 226);
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+td {
+  vertical-align: baseline;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  margin: 0 20px;
+  .race {
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    button {
+      margin-left: 10px;
+    }
+  }
+}
+.add-btn {
+  padding-top: 3px;
+  width: 75%;
+  margin: 15px auto 0px auto;
+  display: block;
+}
+button {
+  background-color: $basic;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  height: 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    background-color: rgb(37, 37, 37);
+    i {
+      color: #fff;
+    }
+  }
+}
